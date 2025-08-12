@@ -1,0 +1,97 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: linear-gradient(65deg,rgb(82, 97, 117), rgb(30, 48, 74));
+}
+
+header {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+#header_icon {
+	max-height: 40px;
+	max-width: 40px;
+}
+
+#hTitle {
+	font-family: "Cookie", cursive;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 25px;
+	color: white;
+}
+
+section {
+	width: 100%;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	font-family: "Enriqueta";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	list-style: none;
+	width: 90%;
+	padding: 10px;
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+li:hover{
+	background-color: grey;
+	cursor: pointer;
+	color: navajowhite;
+}
+
+#inputCouleur {
+	display: none;
+}
+
+.nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+p{
+	font-family: "Enriqueta";
+	color: white;
+}
+
+.ongletTaille{
+	display: none;
+}
+
+button{
+	background: none;
+	border: none;
+	width: 100%;
+	margin: 0;
+	padding: 0px;
+}
+
+.about {
+	display:none;
+}
+
+.aboutText{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	padding: 10px;
+	overflow:n ;
+}

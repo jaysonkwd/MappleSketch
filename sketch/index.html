@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>MappleSketch</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cookie&family=Enriqueta:wght@400;500;600;700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cookie&family=Enriqueta:wght@400;500;600;700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<header>
+			<img src="writing.png" id="header_icon"/>
+			<h1 id="hTitle">MappleSketch</h1>
+		</header>
+
+		<section>
+
+			<ul >
+				<button><li class="ongletCouleur">Couleurs</li></button>
+				<div class="nav">
+					<input type="color" name="chooseColor" id="inputCouleur">
+				</div>
+
+				<button><li class="ongletTitre">Taille du pinceau</li></button>
+
+				<div class="ongletTaille">
+					<input type="range" class="inputSize">
+					<p class="sizeValue"></p>
+				</div>
+				
+				<button><li class="ongletAbout">À propos</li><button>
+				<div class="about">
+					<p class="aboutText">Extension simple pour tracer, surligner ou annoter directement sur les pages Google. Idéal pour prises de notes visuelles ou présentations.</p>
+				</div>
+			</ul>
+
+		</section>
+
+		<script type="text/javascript" src="content.js" ></script>
+
+	</body>
+
+</html>
