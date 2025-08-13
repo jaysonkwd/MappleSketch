@@ -89,4 +89,3 @@ Vous êtes libre de l’utiliser, le modifier et le redistribuer.
 
 ---
 
-Si tu veux, je peux aussi te préparer **une version avec captures d’écran et GIFs** pour rendre le README plus visuel et attractif.
